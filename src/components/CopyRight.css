@@ -1,0 +1,11 @@
+.copyright{
+    height: 3vh;
+    width: 100%;
+    background-color:#180a33;
+    color:#b8b8c7;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

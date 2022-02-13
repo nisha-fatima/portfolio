@@ -1,0 +1,62 @@
+.about{
+  background-image: linear-gradient(to left top, #210529, #1a0529, #130427, #0a0225, #000123);
+ height: 100vh;
+}
+.aboutme{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  font-size: xxx-large;
+  font-weight: bold;
+  cursor: default;
+  font-family: TitilliumWeb;
+}
+.allinfo{
+  margin-left: 10%;
+  margin-right: 10%;
+  color:  #b8b8c7;
+  font-family: RobotoSlab;
+  font-size: large;
+}
+.allinfo1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 90vh;
+  }
+.name{
+  color: #f28dfd;
+  font-size: xxx-large;
+  font-family: LeagueSpartan;
+}
+.nameiam{
+  color: #a27dff;
+  font-family: RobotoSlab;
+
+}
+
+
+@media only screen and (max-width:700px){
+  .aboutme{
+    padding-top: 30px;
+    font-size: xx-large;
+  }
+  .name{
+    font-size: xx-large;
+  }
+  .allinfo1{
+    height: 80vh;
+  }
+  .about{
+    width: 100%;
+  }
+} 
+
+@media only screen and (max-width:335px){
+  .name{
+    font-size: x-large;
+  }
+  .allinfo{
+    font-size: 15px;
+  }
+}

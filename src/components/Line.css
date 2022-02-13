@@ -1,0 +1,10 @@
+.line{
+    background-color:  #b8b8c7;
+    color: #2fffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 6%;
+    height: 2px;
+    margin-left: 47%;
+    margin-right: 47%;
+}

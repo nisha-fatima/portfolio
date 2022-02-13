@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face{
+    font-family: RobotoSlab;
+    src: url(./assets/fonts/RobotoSlab.ttf)
+}
+@font-face{
+    font-family: OpenSans;
+    src: url(./assets/fonts/OpenSans.ttf)
+}
+@font-face{
+    font-family: Karla;
+    src: url(./assets/fonts/Karla.ttf)
+}
+@font-face{
+    font-family: LeagueSpartan;
+    src: url(./assets/fonts/LeagueSpartan.otf)
+}
+@font-face{
+    font-family: TitilliumWeb;
+    src: url(./assets/fonts/TitilliumWeb.ttf)
+}
+#App {
+  font-family: sans-serif;
+  background-color: #000012;
+  overflow: auto;
+}
+
+#page-wrap::-webkit-scrollbar{
+  display: none !important;
+}
+
+#page-wrap {
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #b8b8c7;
+  transition: color 0.2s;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+.bm-item:focus{
+  border: none;
+  outline: none;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background:#b8b8c7;
+}
+
+.bm-burger-bars:hover {
+  opacity: 1 !important;
+  color: #ffffff !important
+}
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #b8b8c7;
+}
+
+
+/* General sidebar styles */
+.bm-menu {
+  background: #161b33;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.35em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+/* .bm-morph-shape {
+  fill: #373a47;
+} */
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b8c7;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  
+}
+
+
+@media only screen and (max-width:700px){
+  *{
+   overflow-x: hidden;
+  }
+}

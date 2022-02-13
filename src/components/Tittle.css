@@ -1,0 +1,120 @@
+.tittleContainer{
+    position: relative;
+}
+.tittle{
+    position : absolute;
+    color: #037fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 40%;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: LeagueSpartan;
+    cursor: default;
+    user-select: none;
+
+}
+.hi{
+    color: white;   
+}
+.tittleDes{
+    position : absolute;
+    color: #b8b8c7;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 50%;
+    text-align: center;
+    font-size: large;
+    font-family: TitilliumWeb;
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+}
+.tittleButton{
+    position : absolute;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid  #b8b8c7;
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    top: 70%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.tittleButton:hover{
+    color: #037fff;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+.scrollDown{
+    position : absolute;
+    text-align: center;
+    top: 88%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: #ffffff;
+    font-weight: bold;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+@keyframes move{
+    from {transform: translateY(0px);}
+    to   {transform: translateY(20px);}
+}
+
+@media only screen and (max-width:700px){
+    .hi{
+        display: block;
+    }
+    .tittle{
+        top: 30%;
+        font-size: 42px;
+    }
+    .tittleDes{
+        top: 47%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .tittleButton{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5%;
+    }
+    .scrollDown{
+        top: 82%;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .tittle{
+        top: 20%;
+        font-size: 36px;
+    }
+    .tittleDes{
+        top:37%;
+    }
+    .tittleButton{
+        top: 67%;
+    }
+    .scrollDown{
+        top: 80%;
+    }
+}
+
